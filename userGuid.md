@@ -174,6 +174,18 @@ DataX本身作为数据同步框架，将不同数据源的同步抽象为从源
     读出记录总数                    :                  50
     读写失败总数                    :                   0
     ```
+# FAQ
+1. python3的兼容性
+```vim
+修改print exception增加括号
+```
+  
+   
+2. Windows下字符集的设定
+```text
+CHCP 65001
+然后再执行python datax.py ./stream2stream.json 
+```
 
 # Contact us
 
