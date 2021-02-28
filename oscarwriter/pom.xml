@@ -40,11 +40,17 @@
             <version>${datax-project-version}</version>
         </dependency>
         <dependency>
+            <!-- gaussgao 这个是个调试版本，使用的本机地址
+                <groupId>com.esen.jdbc</groupId>
+                <artifactId>oscarJDBC</artifactId>
+                <version>1.0</version>
+            -->
             <groupId>com.oscar</groupId>
             <artifactId>oscar</artifactId>
             <version>7.0.8</version>
             <scope>system</scope>
             <systemPath>${basedir}/src/main/lib/oscarJDBC.jar</systemPath>
+
         </dependency>
 
     </dependencies>

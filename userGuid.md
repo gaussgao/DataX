@@ -182,9 +182,16 @@ DataX本身作为数据同步框架，将不同数据源的同步抽象为从源
   
    
 2. Windows下字符集的设定
-```text
+```shell
 CHCP 65001
-然后再执行python datax.py ./stream2stream.json 
+# 然后再执行
+cd DataX
+python target\datax\datax\bin\datax.py target\datax\datax\job\stream2stream.json
+```
+
+3. oscarwrite是debug，暂时不纳入,可注释掉pom.xml的此项
+```text
+<module>oscarwriter</module>
 ```
 
 # Contact us

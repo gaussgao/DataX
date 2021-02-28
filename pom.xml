@@ -97,7 +97,9 @@
         <module>gdbwriter</module>
         <module>cassandrawriter</module>
         <module>clickhousewriter</module>
-        <module>oscarwriter</module>
+            <!-- gaussgao 20210219 未下载到相关依赖 JDBC
+                <module>oscarwriter</module>
+            -->
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
         <module>plugin-unstructured-storage-util</module>
